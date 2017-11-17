@@ -1,0 +1,144 @@
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+    #head h1 {
+        margin-top: 1.75em;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+    .navbar-default .navbar-header h1 {
+        margin-left: 0.25em;
+    }
+
+    #head h1 {
+        margin-top: 1.3em;
+        font-size: 2.188rem;
+    }
+
+    #head p {
+        line-height: 1.563rem;;
+    }
+
+    #head .btn-read {
+        margin-top:2.625em;
+    }
+    
+    #welcome .connect-wrapper {
+        text-align: center;
+    }
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+    h1 {
+        font-size: 1.25rem;
+    }
+
+    h3 {
+        font-size: 1rem;
+    }
+
+    h4 {
+        font-size: 1rem;
+    }
+
+    p {
+        font-size: 0.875rem;
+        line-height:1.5rem;
+    }
+
+    #head h1 {
+        margin-top: 1.75em;
+        font-size: 1.563rem;
+    }
+
+    .btn-ghost {
+        width: 100px;
+        height:30px;
+        font-size: 0.75rem;
+        line-height: 30px;
+    }
+
+    #head .btn-read {
+        margin-top: 0.5em;
+    }
+
+    #welcome h2 {
+        font-size: 1.125rem;
+    }
+
+    #news .news-container .date {
+        background-position: center;
+    }
+
+    #news .news-container .date h4 {
+        text-align: center;
+    }
+
+    #news .news-container .date h1 {
+        text-align: center;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+
+    #head h1 {
+        margin-top: 1.5em;
+        font-size: 1.25rem;
+    }
+
+    #head .dots {
+        bottom: 5px;
+    }
+
+    #head p {
+        margin-top: 0.5em;
+        letter-spacing: 0;
+        font-size: 0.93rem;
+        line-height:1.25rem;
+    }
+
+    #contact-form .btn.btn-send {
+        width:100px;
+        height:40px;
+        line-height: 40px;
+    }
+
+}
+
+/* Custom */
+@media only screen and (max-width : 400px){
+    #head p .more-info {
+        display: none;
+    }
+
+    #head .btn-read {
+        margin-top: 0;
+    }
+}
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+    #head h1 {
+        font-size: 1.125rem;
+        margin-top: 0.688em;
+    }
+
+    #head p {
+        line-height: 1rem;
+
+    }
+
+    #head .btn-read {
+        margin-top: 0;
+        width: 100px;
+        height: 25px;
+        line-height: 25px;
+    }
+}}
